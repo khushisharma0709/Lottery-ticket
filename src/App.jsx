@@ -1,7 +1,7 @@
 
 import './App.css'
-// import Lottery from './Lottery.jsx';
-import Ticket from './Ticket';
+import Lottery from './Lottery.jsx';
+
 
 
 function App() {
@@ -9,10 +9,7 @@ function App() {
 
   return (
     <>
-      <Ticket ticket={[0,1,2]}/>
-      
-      <Ticket ticket={([1,6,5,9,5])}/>
-      
+     <Lottery n={5} winingSum={15}/>
     </>
   )
 }
