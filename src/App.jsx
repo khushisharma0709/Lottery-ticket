@@ -11,6 +11,8 @@ function App() {
     <>
       <Ticket ticket={[0,1,2]}/>
       
+      <Ticket ticket={([1,6,5,9,5])}/>
+      
     </>
   )
 }
